@@ -1,0 +1,173 @@
+﻿body, html {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.ttable {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.trow {
+    display: table-row;
+}
+
+.tcell {
+    display: table-cell;
+}
+
+.grow {
+    bottom: 0;
+    height: 100%;
+}
+
+
+.price-table .tcell.first,
+.price-table .tcell.last {
+    width: 363px;
+}
+
+.price-table .tcell.center {
+    width: auto;
+    -moz-min-width: 1178px;
+    -ms-min-width: 1178px;
+    -o-min-width: 1178px;
+    -webkit-min-width: 1178px;
+    min-width: 1178px;
+}
+
+.fill-parent-relative {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.form-cell {
+    position: relative;
+    width: 453px;
+    height: 99px;
+    margin: 0px;
+    padding: 0px;
+}
+
+    .form-cell .handle-box {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        width: 90px;
+        border-left: 2px solid #207d9e;
+        background-color: #fafafa;
+        z-index: 00000;
+    }
+
+    .form-cell > select {
+        position: absolute;
+        width: 453px;
+        height: 99px;
+        border-radius: 5px;
+        border-color: #207d9e;
+        border-width: 3px;
+        font-size: 35px;
+        background: transparent;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        margin-right: 40px;
+        padding-right: 106px;
+        padding-left: 18px;
+        z-index: 9999;
+        color: #bfbfbf;
+        cursor: pointer;
+    }
+
+    .form-cell > input {
+        width: 453px;
+        height: 99px;
+        border-radius: 5px;
+        border-color: #207d9e;
+        border-width: 3px;
+        font-size: 35px;
+        color: #bfbfbf;
+        padding-left: 31px;
+    }
+
+        .form-cell > input::-webkit-input-placeholder { /* WebKit browsers */
+            color: #bfbfbf;
+        }
+
+        .form-cell > input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+            color: #bfbfbf;
+        }
+
+        .form-cell > input::-moz-placeholder { /* Mozilla Firefox 19+ */
+            color: #bfbfbf;
+        }
+
+        .form-cell > input:-ms-input-placeholder { /* Internet Explorer 10+ */
+            color: #bfbfbf;
+        }
+
+    .form-cell > select > option {
+        text-align: right;
+    }
+
+
+.handle-box .up {
+    position: absolute;
+    font-size: 51px;
+    top: 5px;
+    left: 29px;
+    color: #bfbfbf;
+}
+
+.handle-box .down {
+    position: absolute;
+    bottom: 12px;
+    font-size: 51px;
+    left: 29px;
+    color: #bfbfbf;
+}
+
+
+.form-label {
+    text-align: right;
+    font-size: 47px;
+    line-height: 93px;
+    color: #484848;
+    padding-right: 41px;
+}
+
+
+.form-row {
+    height: 130px;
+    vertical-align: middle;
+}
+
+    .form-row .tcell {
+        vertical-align: middle;
+    }
+
+.download-btn {
+    height: 97px;
+    font-size: 47px;
+    line-height: 74px;
+    padding-right: 29px;
+    padding-left: 34px;
+    float: left;
+    margin-left: 169px;
+}
+
+.download-title {
+    text-align: center;
+    font-size: 54px;
+    font-weight: bold;
+    color: #289fc9;
+}
